@@ -26,3 +26,7 @@ h1 a{
     left: 45%;    /*Centrar logotipo*/ 
     position: absolute;   
 }
+
+nav ul li{
+    list-style:none; /*Quitar puntos lista*/
+}
