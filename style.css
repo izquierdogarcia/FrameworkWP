@@ -1,0 +1,20 @@
+/*
+Theme Name: TwentyTen Five
+Theme URI: http://richardshepherd.com
+Description: A HTML5 version of the TwentyTen default theme for WordPress.
+Author: Richard Shepherd
+Version: 1.0
+Tags: html5, black, blue, white, two-columns, fixed-width, custom-header, custom-background, threaded-comments, sticky-post, translation-ready, microformats, rtl-language-support, editor-style
+*/
+
+/* Grab the original TwentyTen styles */
+/* This stylesheet merely overrides a few and brings HTML5 to the masses! */
+/*@import url(css/twentyten-style.css); */
+
+/* A message for users with JavaScript turned off */
+noscript strong {display: block; font-size: 18px; line-height:1.5em; padding: 5px 0; background-color: #ccc; color: #a00; text-align: center; }
+
+/* HTML5 elements need display: block */
+header,nav,section,article,aside,figure,footer { display:block; }
+
+
