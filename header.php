@@ -72,9 +72,8 @@
 					<span>						
 						<a href="<?php echo home_url( '/' ); ?>" title="<?php echo esc_attr( get_bloginfo( 'name', 'display' ) ); ?>" rel="home"><?php bloginfo( 'name' ); ?></a>
 					</span>
-					</<?php echo $heading_tag; ?>>
-					<!--Descripción del blog-->
-					<h2 id="site-description"><?php bloginfo( 'description' ); ?></h2>
+					</<?php echo $heading_tag; ?>
+					
 				</hgroup>
 				<!--
 				<?php
