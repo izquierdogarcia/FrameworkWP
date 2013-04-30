@@ -23,10 +23,15 @@ body{
 }
 
 h1 a{        
-    left: 45%;    /*Centrar logotipo*/ 
-    position: absolute;   
+    margin: 45%;    /*Centrar logotipo*/ 
+       
 }
 
 nav ul li{
     list-style:none; /*Quitar puntos lista*/
+    display: inline;
+    margin: 0 2em;
+
 }
+
+
