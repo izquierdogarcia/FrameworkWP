@@ -20,18 +20,36 @@ header,nav,section,article,aside,figure,footer { display:block; }
 body{
 	background-color: #E8D5B9;
 	color: #0E2430;
+
 }
 
 h1 a{        
     margin: 45%;    /*Centrar logotipo*/ 
-       
+    text-decoration:none;
+}
+
+nav{
+	border-bottom: 0.3em solid #0E2430;
+	width: 100%;
+
 }
 
 nav ul li{
     list-style:none; /*Quitar puntos lista*/
     display: inline;
-    margin: 0 2em;
+    margin: 0 6%;
+    font-size: 1.3em;
+    text-align: center;
+    width: 100%;
+
 
 }
 
+nav ul li a{
+	text-decoration:none;
+	color:#0E2430;
+}
 
+nav ul li a:hover{
+	color: #FC3A51;
+}
