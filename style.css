@@ -18,18 +18,28 @@ noscript strong {display: block; font-size: 18px; line-height:1.5em; padding: 5p
 header,nav,section,article,aside,figure,footer { display:block; }
 
 body{
-	background-color: #E8D5B9;
-	color: #0E2430;
-
+	background-color: #E45635;
+	color: #D1F2A5;
+    font-size:18px;
+    overflow-x: hidden;
 }
 
-h1 a{        
-    margin: 45%;    /*Centrar logotipo*/ 
+h1 a{  
+    
+
+    margin: 44%;    /*Centrar logotipo*/ 
     text-decoration:none;
+}
+
+h1 a:hover{
+    color:black; 
+    width:400px;
+      -webkit-transition: all 2s ease;
 }
 
 nav{
 	border-bottom: 0.3em solid #0E2430;
+    border-bottom-width: 100%;
 	width: 100%;
 
 }
@@ -38,7 +48,7 @@ nav ul li{
     list-style:none; /*Quitar puntos lista*/
     display: inline;
     margin: 0 6%;
-    font-size: 1.3em;
+    font-size: 1em;
     text-align: center;
     width: 100%;
 
@@ -48,8 +58,24 @@ nav ul li{
 nav ul li a{
 	text-decoration:none;
 	color:#0E2430;
+    padding: 0.5%;
+    border-radius: 5px;
 }
 
 nav ul li a:hover{
-	color: #FC3A51;
+	color: white;
+    background-color: #FC3A51;
+
+}
+
+.header{
+    background-color: #C0C0C0;   
+    min-width: 1260px;
+    vertical-align: top;
+    padding-top: 50px;
+    margin-top: -50px;
+    padding-left: 50px;
+    padding-right: 50px;
+    margin-left: -50px;
+    margin-right: -50px;
 }
