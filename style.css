@@ -17,6 +17,11 @@ noscript strong {display: block; font-size: 18px; line-height:1.5em; padding: 5p
 /* HTML5 elements need display: block */
 header,nav,section,article,aside,figure,footer { display:block; }
 
+* {
+  margin: 0;
+  padding: 0;
+}
+
 body{
 	background-color: #FA2A00;
 	color: #0E2430;
@@ -25,6 +30,7 @@ body{
 
 #content{
     color: white;
+    font-family: 'Inder', 'sans-serif';
 }
 
 h1 a{        
@@ -68,4 +74,22 @@ nav ul li a:hover{
     padding-top: 3%;
 }
 
+#post-4 header{
+    font-size:6em;
+    line-height:1em;
+    text-align:right
+
+}
+
+#post-4 header h2{
+    margin-top: 7%;
+}
+
+
+
+#post-4 .entry-content{
+    font-size:1em;
+    margin-left:0.5em;
+    color: #AEAB9D;
+}
 

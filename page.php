@@ -35,12 +35,12 @@ get_header(); ?>
 					</div><!-- .entry-content -->
 				</article><!-- #post-## -->
 
-				<?php comments_template( '', true ); ?>
+				
 
 <?php endwhile; ?>
 
 			</div><!-- #content -->
 		</div><!-- #container -->
 
-<?php get_sidebar(); ?>
+
 <?php get_footer(); ?>
