@@ -18,14 +18,22 @@ noscript strong {display: block; font-size: 18px; line-height:1.5em; padding: 5p
 header,nav,section,article,aside,figure,footer { display:block; }
 
 body{
-	background-color: #E8D5B9;
+	background-color: #FA2A00;
 	color: #0E2430;
+    margin: 0px;
+}
 
+#content{
+    color: white;
 }
 
 h1 a{        
-    margin: 45%;    /*Centrar logotipo*/ 
+    margin: 41%;    /*Centrar logotipo*/ 
     text-decoration:none;
+}
+
+img{
+    width: 300px;
 }
 
 nav{
@@ -53,3 +61,11 @@ nav ul li a{
 nav ul li a:hover{
 	color: #FC3A51;
 }
+
+.header{
+    background-color: white;
+    margin: 0px;
+    padding-top: 3%;
+}
+
+
