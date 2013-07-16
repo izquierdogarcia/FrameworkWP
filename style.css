@@ -26,11 +26,16 @@ body{
 	background-color: #FA2A00;
 	color: #0E2430;
     margin: 0px;
+    overflow-x: hidden;
 }
 
 #content{
     color: white;
     font-family: 'Inder', 'sans-serif';
+    /*ACTIVAR PARA BLUR!!!!!!!!!!!!!!!*/
+    /*color: transparent;
+
+    text-shadow: #fff 0 0 10px; */
 }
 
 h1 a{        
@@ -44,29 +49,47 @@ img{
 
 nav{
 	border-bottom: 0.3em solid #0E2430;
-	width: 100%;
+    font-family: 'Inder', 'sans-serif';
 
+    
 }
 
 nav ul li{
-    list-style:none; /*Quitar puntos lista*/
+    list-style-type:none; /*Quitar puntos lista*/
     display: inline;
     margin: 0 6%;
-    font-size: 1.3em;
+    font-size: 1.5em;
     text-align: center;
     width: 100%;
+    padding-left: 10px;
+    padding-right: 10px;
+    
 
+}
+
+li a:hover{    
+
+    color: black;
+    border-top: 2px solid #FA2A00;
+    
+
+}
+
+
+
+ul{
+    position: relative; 
+    left: 10%;
+    
 
 }
 
 nav ul li a{
 	text-decoration:none;
-	color:#0E2430;
+	color:grey;
+
 }
 
-nav ul li a:hover{
-	color: #FC3A51;
-}
 
 .header{
     background-color: white;
@@ -91,5 +114,7 @@ nav ul li a:hover{
     font-size:1em;
     margin-left:0.5em;
     color: #AEAB9D;
+    
+    
 }
 
