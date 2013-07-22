@@ -23,23 +23,41 @@ header,nav,section,article,aside,figure,footer { display:block; }
 }
 
 body{
-	background-color: #FA2A00;
+	/*background-color: #FA2A00;*/
+    background-image:url(images/byn.jpg);
+    background-size:100%;
 	color: #0E2430;
-    margin: 0px;
+    margin: 0%;
     overflow-x: hidden;
+    display: inline-block;    
+    background-attachment: fixed;   
+    background-repeat: no-repeat;
+    
+     
+
+}
+
+.entry-content{
+    margin:5%;
+    
 }
 
 #content{
     color: white;
     font-family: 'Inder', 'sans-serif';
+    padding-bottom: 7%;
+    margin: 0% 2%;
     /*ACTIVAR PARA BLUR!!!!!!!!!!!!!!!*/
     /*color: transparent;
 
     text-shadow: #fff 0 0 10px; */
+    text-shadow:#666666 2px 2px 1px;
+
+
 }
 
 h1 a{        
-    margin: 41%;    /*Centrar logotipo*/ 
+    margin: 39%;    /*Centrar logotipo*/ 
     text-decoration:none;
 }
 
@@ -48,7 +66,7 @@ img{
 }
 
 nav{
-	border-bottom: 0.3em solid #0E2430;
+	border-bottom: 0.3em solid black;
     font-family: 'Inder', 'sans-serif';
 
     
@@ -90,6 +108,10 @@ nav ul li a{
 
 }
 
+#rombos{
+    width:10px;
+}
+
 
 .header{
     background-color: white;
@@ -115,6 +137,23 @@ nav ul li a{
     margin-left:0.5em;
     color: #AEAB9D;
     
+    
+}
+
+footer{
+    padding-top:2%;
+    background-color: white;
+    
+
+}
+
+#social img{
+    width:50px;
+}
+
+#social{
+    margin-left:43%;
+    padding-bottom:2%;
     
 }
 

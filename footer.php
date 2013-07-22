@@ -22,13 +22,20 @@
 	get_sidebar( 'footer' );
 ?>
 
-			<div id="site-info">
-				<a href="<?php echo home_url( '/' ) ?>" title="<?php echo esc_attr( get_bloginfo( 'name', 'display' ) ); ?>" rel="home">
+			<!--<div id="site-info">
+				<a href="<?php //echo home_url( '/' ) ?>" title="<?php //echo esc_attr( get_bloginfo( 'name', 'display' ) ); ?>" rel="home">
 					<?php bloginfo( 'name' ); ?>
 				</a>
-			</div><!-- #site-info -->
+				
+			</div>-->
+			<!-- #site-info -->
 
-			
+			<div id="social">
+				
+				<a href="http://github.com/izquierdogarcia"><img src="<?php bloginfo('template_directory'); ?>/images/github.gif" /></a>
+				<a href="http://twitter.com/izquierdogarcia"><img src="<?php bloginfo('template_directory'); ?>/images/twitter.gif" /></a>
+				<a href="http://www.flickr.com/photos/aizqui/"><img src="<?php bloginfo('template_directory'); ?>/images/flickr.gif" /></a>
+			</div>
 
 		</div><!-- #colophon -->
 	</footer><!-- #footer -->
